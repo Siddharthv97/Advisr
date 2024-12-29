@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* -------------------------------------------------------------------------- */
+/*                             Universal Selector                             */
+/* -------------------------------------------------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Root Style                                 */
+/* -------------------------------------------------------------------------- */
+
+:root {
+  /* Color Style CSS */
+  --white:#ffff;
+  --purple:#9384FE;
+  --dark-blue:#1C1C57;
+  --gray:#73739A;
+
+  /* Font Style CSS  */
+  --weight600:600;
+  /* Background Style CSS  */
+
+  --back-gray:#F1F1F5;
+
+  /* Gradient Color CSS  */
+ --primary-linear: linear-gradient(90deg, rgb(147, 132, 254) 0%, rgb(97, 90, 255) 100%);
+
+ /* transition Style CSS  */
+ --default-transition:all .3s ease-in-out;
+
+ /* Border Radius CSS  */
+ --default-radius:6px;
+  
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  Selectors                                 */
+/* -------------------------------------------------------------------------- */
+
+body {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: var(--dark-blue);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+}
+
+p {
+  font-weight: normal;
+}
+
+:is(ul, li) {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Blank Space                                */
+/* -------------------------------------------------------------------------- */
+
+
+.pt100{
+  padding: 100px 0;
+}
+.space10{
+  height: 10px;
+}
+.space16{
+  height: 16px;
+}
+
+.space20{
+  height: 20px;
+}
+.space24{
+  height: 24px;
+}
+
+.space30{
+  height: 30px;
+}
+
+.space40{
+  height: 40px;
+}
+
+.space50{
+  height: 50px;
+}
+.space60{
+  height: 60px;
+}
+.service_border{
+  background-color: #E2E2E2;
+  height: 1px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+}
+
+.heading_content{
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-transform: capitalize;
+}
